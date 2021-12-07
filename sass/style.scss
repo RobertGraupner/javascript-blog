@@ -114,8 +114,35 @@ body {
 
 .post-tags {
   display: flex;
+
   p {
     margin: 0 10px 0 0;
   }
 }
 
+/* Tags */
+
+.tag-size-1 {
+  font-size: 100%;
+  color: black;
+}
+
+.tag-size-2 {
+  font-size: 125%;
+  color: olivedrab;
+}
+
+.tag-size-3 {
+  font-size: 150%;
+  color: palevioletred;
+}
+
+.tag-size-4 {
+  font-size: 175%;
+  color: skyblue;
+}
+
+.tag-size-5 {
+  font-size: 200%;
+  color: red;
+}
