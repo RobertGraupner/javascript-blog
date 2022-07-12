@@ -4,6 +4,7 @@
 
 $color-light: #fff;
 $color-dark: #444;
+$color-green: rgb(24, 58, 8);
 
 $font-logo: 'Sacramento', cursive;
 $font-header: 'Oswald', sans-serif;
@@ -22,6 +23,15 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
+  a {
+    text-decoration: none;
+    color: $color-green;
+  }
+  img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
 }
 
 .container {
